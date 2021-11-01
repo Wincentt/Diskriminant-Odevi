@@ -7,11 +7,11 @@ public class Alperenclass1
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("a Değişkenini Girin");
+		System.out.println("a DeÄŸiÅŸkenini Girin");
 		int a = sc.nextInt();
-		System.out.println("b Değişkenini Girin");
+		System.out.println("b DeÄŸiÅŸkenini Girin");
 		int b = sc.nextInt();
-		System.out.println("c Değişkenini Girin");
+		System.out.println("c DeÄŸiÅŸkenini Girin");
 		int c = sc.nextInt();
 		double delta=(b*b)-4*a*c;
 		
@@ -23,28 +23,28 @@ public class Alperenclass1
 									    	    
 	   if (delta<0)
 	   {
-		   System.out.println("Denklemin Sanal Kökleri Vardır.Reel Kökü Yoktur");
+		   System.out.println("Denklemin Sanal KÃ¶kleri VardÄ±r.Reel KÃ¶kÃ¼ Yoktur");
 	   }
 	   
 	   else if (delta==0)
 	   {
-		   System.out.println("Çakışık 2 Kökü Vardır."+"Denklemin Kökü= "+kok1);
+		   System.out.println("Ã‡akÄ±ÅŸÄ±k 2 KÃ¶kÃ¼ VardÄ±r."+"Denklemin KÃ¶kÃ¼= "+kok1);
 	   }
 	   
 	   else
 	   {
 		   
-		   System.out.println("2 Farklı Kökü Vardır."+"Birinci Kök= "+kok1+"  "  +"İkinci Kök= "+kok2);
+		   System.out.println("2 FarklÄ± KÃ¶kÃ¼ VardÄ±r."+"Birinci KÃ¶k= "+kok1+"  "  +"Ä°kinci KÃ¶k= "+kok2);
 	   }
 	   
 	   if (delta<0)
 	   {
-		   System.out.println("Reel Kökü Olmadığı İçin Kökler Toplamı Ve Kökler Çarpımı Bulunamaz");
+		   System.out.println("Reel KÃ¶kÃ¼ OlmadÄ±ÄŸÄ± Ä°Ã§in KÃ¶kler ToplamÄ± Ve KÃ¶kler Ã‡arpÄ±mÄ± Bulunamaz");
 	   }
 	   
 	   else
 	   {
-		   System.out.println("Kökler Toplamı= "+ koklertoplami+" "+"Kökler Çarpımı= "+koklercarpimi);
+		   System.out.println("KÃ¶kler ToplamÄ±= "+ koklertoplami+" "+"KÃ¶kler Ã‡arpÄ±mÄ±= "+koklercarpimi);
 	   }
 	   
 	  
